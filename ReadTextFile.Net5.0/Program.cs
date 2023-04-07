@@ -6,7 +6,7 @@ namespace ReadTextFile.Net5._0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string text = System.IO.File.ReadAllText(@"C:\Users\txa334\Desktop\Assets\textFile.txt");
         }
     }
 }
